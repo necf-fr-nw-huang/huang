@@ -4,6 +4,10 @@ function FindProxyForURL(url, host)
  return "DIRECT";
 
   
+  
+  
+  
+  
  else if (shExpMatch(url, "https://sts-vrf.a01.fastretailing.com/*"))
  return "DIRECT";
  else if (shExpMatch(url, "https://sts-prd.a01.fastretailing.com/*"))
